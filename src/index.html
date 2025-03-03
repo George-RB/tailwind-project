@@ -7,97 +7,99 @@
     <link rel="shortcut icon" href="./img/icons/1.png" type="image/x-icon" />
     <link href="./output.css" rel="stylesheet" />
   </head>
-  <body class="max-w-7xl mx-auto">
-    <!-- HEADER -->
-    <header class="max-w-6xl mx-auto py-4">
-      <div class="grid grid-cols-3 items-center">
-        <div class="flex items-center">
-          <img src="./img/logo.png" alt="logo" class="h-10" />
-          <p class="pl-2 font-bold text-lg">Maker</p>
+  <body class="max-w-7xl mx-auto bg-gray-200">
+    <section class="bg-[./img/Backgroung.jpg]">
+      <!-- HEADER -->
+      <header class="max-w-6xl mx-auto py-4">
+        <div class="grid grid-cols-3 items-center">
+          <div class="flex items-center">
+            <img src="./img/logo.png" alt="logo" class="h-10" />
+            <p class="pl-2 font-bold text-lg">Maker</p>
+          </div>
+          <nav>
+            <ul class="flex justify-center space-x-6 text-gray-400">
+              <li>
+                <a
+                  href="#Home"
+                  class="border-b-2 border-cyan-500 text-cyan-500 pb-1"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#Services"
+                  class="hover:border-b-2 border-cyan-500 pb-1 hover:text-cyan-600"
+                  >Services</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#TheTeam"
+                  class="hover:border-b-2 border-cyan-500 pb-1 hover:text-cyan-600 whitespace-nowrap"
+                  >The Team</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#Pricing"
+                  class="hover:border-b-2 border-cyan-500 pb-1 hover:text-cyan-600"
+                  >Pricing</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#Contact"
+                  class="hover:border-b-2 border-cyan-500 pb-1 hover:text-cyan-600"
+                  >Contact</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#About"
+                  class="hover:border-b-2 border-cyan-500 pb-1 hover:text-cyan-600"
+                  >About</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <div class="flex justify-end">
+            <button
+              class="px-6 py-2 bg-cyan-600 text-white rounded-md hover:bg-cyan-700 active:bg-cyan-400"
+            >
+              Sign Up
+            </button>
+          </div>
         </div>
-        <nav>
-          <ul class="flex justify-center space-x-6 text-gray-400">
-            <li>
-              <a
-                href="#Home"
-                class="border-b-2 border-cyan-500 text-cyan-500 pb-1"
-                >Home</a
-              >
-            </li>
-            <li>
-              <a
-                href="#Services"
-                class="hover:border-b-2 border-cyan-500 pb-1 hover:text-cyan-600"
-                >Services</a
-              >
-            </li>
-            <li>
-              <a
-                href="#TheTeam"
-                class="hover:border-b-2 border-cyan-500 pb-1 hover:text-cyan-600"
-                >The Team</a
-              >
-            </li>
-            <li>
-              <a
-                href="#Pricing"
-                class="hover:border-b-2 border-cyan-500 pb-1 hover:text-cyan-600"
-                >Pricing</a
-              >
-            </li>
-            <li>
-              <a
-                href="#Contact"
-                class="hover:border-b-2 border-cyan-500 pb-1 hover:text-cyan-600"
-                >Contact</a
-              >
-            </li>
-            <li>
-              <a
-                href="#About"
-                class="hover:border-b-2 border-cyan-500 pb-1 hover:text-cyan-600"
-                >About</a
-              >
-            </li>
-          </ul>
-        </nav>
-        <div class="flex justify-end">
-          <button
-            class="px-6 py-2 bg-cyan-600 text-white rounded-md hover:bg-cyan-700 active:bg-cyan-400"
-          >
-            Sign Up
-          </button>
-        </div>
-      </div>
-    </header>
+      </header>
 
-    <!-- HERO SECTION -->
-    <section class="bg-cyan-100 py-12">
-      <div class="grid grid-cols-2 max-w-6xl mx-auto items-center">
-        <div class="space-y-6">
-          <h1 class="text-4xl font-bold text-gray-800">
-            <span class="text-cyan-800">Make</span> a Creative <br />
-            solutions for your <br />
-            Creative ideas.
-          </h1>
-          <p class="text-gray-600 text-lg">
-            We are here to give you effective ideas. We help brands become what
-            they want.
-          </p>
-          <button
-            class="px-6 py-3 bg-cyan-600 text-white rounded-md hover:bg-cyan-700 active:bg-cyan-400"
-          >
-            Get Started
-          </button>
+      <!-- HERO SECTION -->
+      <section class="py-12">
+        <div class="grid grid-cols-2 max-w-6xl mx-auto items-center">
+          <div class="space-y-6">
+            <h1 class="text-4xl font-bold text-gray-800 leading-normal">
+              <span class="text-cyan-600">Make</span> a Creative <br />
+              solutions for your <br />
+              Creative <span class="text-cyan-600">ideas.</span>
+            </h1>
+            <p class="text-gray-600 text-lg">
+              We are here to give you effective ideas. We help brands become
+              what they want.
+            </p>
+            <button
+              class="px-6 py-3 bg-cyan-600 text-white rounded-md hover:bg-cyan-700 active:bg-cyan-400"
+            >
+              Get Started
+            </button>
+          </div>
+          <div class="flex justify-end">
+            <img
+              src="./img/woman.png"
+              alt="woman"
+              class="max-w-xs md:max-w-md lg:max-w-lg"
+            />
+          </div>
         </div>
-        <div class="flex justify-end">
-          <img
-            src="./img/woman.png"
-            alt="woman"
-            class="max-w-xs md:max-w-md lg:max-w-lg"
-          />
-        </div>
-      </div>
+      </section>
     </section>
   </body>
 </html>

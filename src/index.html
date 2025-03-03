@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,78 +9,95 @@
   </head>
   <body class="max-w-7xl mx-auto">
     <!-- HEADER -->
-    <div class="grid bg-gray-200">
-      <div
-        class="grid grid-cols-3 grid-rows-1 bg-blue-100 h-11 py-10 items-center"
-      >
-        <div class="flex justify-center items-center">
-          <img src="./img/logo.png" alt="logo" />
-          <p class="pl-2 font-bold">Maker</p>
+    <header class="max-w-6xl mx-auto py-4">
+      <div class="grid grid-cols-3 items-center">
+        <div class="flex items-center">
+          <img src="./img/logo.png" alt="logo" class="h-10" />
+          <p class="pl-2 font-bold text-lg">Maker</p>
         </div>
-        <div class="">
-          <ul class="flex justify-between text-gray-400">
-            <li class="hover:text-cyan-600 active:text-cyan-400">
+        <nav>
+          <ul class="flex justify-center space-x-6 text-gray-400">
+            <li>
               <a
                 href="#Home"
-                class="border-b border-cyan-500 text-cyan-500 pb-3"
+                class="border-b-2 border-cyan-500 text-cyan-500 pb-1"
                 >Home</a
               >
             </li>
-            <li class="hover:text-cyan-600 active:text-cyan-400">
-              <a href="#Services" class="hover:border-b border-cyan-500 pb-3"
+            <li>
+              <a
+                href="#Services"
+                class="hover:border-b-2 border-cyan-500 pb-1 hover:text-cyan-600"
                 >Services</a
               >
             </li>
-            <li class="hover:text-cyan-600 active:text-cyan-400">
-              <a href="#TheTeam" class="hover:border-b border-cyan-500 pb-3"
+            <li>
+              <a
+                href="#TheTeam"
+                class="hover:border-b-2 border-cyan-500 pb-1 hover:text-cyan-600"
                 >The Team</a
               >
             </li>
-            <li class="hover:text-cyan-600 active:text-cyan-400">
-              <a href="#Pricing" class="hover:border-b border-cyan-500 pb-3"
+            <li>
+              <a
+                href="#Pricing"
+                class="hover:border-b-2 border-cyan-500 pb-1 hover:text-cyan-600"
                 >Pricing</a
               >
             </li>
-            <li class="hover:text-cyan-600 active:text-cyan-400">
-              <a href="#Contact" class="hover:border-b border-cyan-500 pb-3"
+            <li>
+              <a
+                href="#Contact"
+                class="hover:border-b-2 border-cyan-500 pb-1 hover:text-cyan-600"
                 >Contact</a
               >
             </li>
-            <li class="hover:text-cyan-600 active:text-cyan-400">
-              <a href="#About" class="hover:border-b border-cyan-500 pb-3"
+            <li>
+              <a
+                href="#About"
+                class="hover:border-b-2 border-cyan-500 pb-1 hover:text-cyan-600"
                 >About</a
               >
             </li>
           </ul>
-        </div>
-        <div class="flex justify-center">
+        </nav>
+        <div class="flex justify-end">
           <button
-            class="px-8 py-4 bg-cyan-600 rounded-md hover:bg-cyan-700 cursor-pointer text-white active:bg-cyan-400"
+            class="px-6 py-2 bg-cyan-600 text-white rounded-md hover:bg-cyan-700 active:bg-cyan-400"
           >
             Sign Up
           </button>
         </div>
       </div>
-    </div>
-    <!-- HEADER -->
-    <div class="bg-cyan-100">
-      <div class="grid grid-cols-2">
-        <div class="grid grid-rows-3">
-          <h1>Make a Creative solutions for your Creative ideas.</h1>
-          <p>
-            We are here to give you effective ideas. We help the brands to
-            become what they want.
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="bg-cyan-100 py-12">
+      <div class="grid grid-cols-2 max-w-6xl mx-auto items-center">
+        <div class="space-y-6">
+          <h1 class="text-4xl font-bold text-gray-800">
+            <span class="text-cyan-800">Make</span> a Creative <br />
+            solutions for your <br />
+            Creative ideas.
+          </h1>
+          <p class="text-gray-600 text-lg">
+            We are here to give you effective ideas. We help brands become what
+            they want.
           </p>
           <button
-            class="px-8 py-4 bg-cyan-600 rounded-md hover:bg-cyan-700 cursor-pointer text-white active:bg-cyan-400"
+            class="px-6 py-3 bg-cyan-600 text-white rounded-md hover:bg-cyan-700 active:bg-cyan-400"
           >
             Get Started
           </button>
         </div>
-        <div class="">
-          <img src="./img/woman.png" alt="woman" />
+        <div class="flex justify-end">
+          <img
+            src="./img/woman.png"
+            alt="woman"
+            class="max-w-xs md:max-w-md lg:max-w-lg"
+          />
         </div>
       </div>
-    </div>
+    </section>
   </body>
 </html>

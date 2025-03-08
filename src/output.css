@@ -10,6 +10,9 @@
     --color-cyan-500: oklch(0.715 0.143 215.221);
     --color-cyan-600: oklch(0.609 0.126 221.723);
     --color-cyan-700: oklch(0.52 0.105 223.128);
+    --color-slate-100: oklch(0.968 0.007 247.896);
+    --color-slate-200: oklch(0.929 0.013 255.508);
+    --color-gray-100: oklch(0.967 0.003 264.542);
     --color-gray-200: oklch(0.928 0.006 264.531);
     --color-gray-400: oklch(0.707 0.022 261.325);
     --color-gray-600: oklch(0.446 0.03 256.802);
@@ -324,8 +327,17 @@
   .bg-cyan-600 {
     background-color: var(--color-cyan-600);
   }
+  .bg-gray-100 {
+    background-color: var(--color-gray-100);
+  }
   .bg-gray-200 {
     background-color: var(--color-gray-200);
+  }
+  .bg-slate-100 {
+    background-color: var(--color-slate-100);
+  }
+  .bg-slate-200 {
+    background-color: var(--color-slate-200);
   }
   .bg-\[url\(\'\.\/img\/Background\.jpg\'\)\] {
     background-image: url('./img/Background.jpg');
@@ -344,6 +356,9 @@
   }
   .py-12 {
     padding-block: calc(var(--spacing) * 12);
+  }
+  .pt-\[120px\] {
+    padding-top: 120px;
   }
   .pb-1 {
     padding-bottom: calc(var(--spacing) * 1);

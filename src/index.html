@@ -183,19 +183,39 @@
     </section>
 
     <!-- VIDEO -->
-    <section class="bg-[url('./img/working.jpg')] size-full bg-no-repeat">
-      <section class="grid grid-rows-3 max-w-6xl mx-auto place-items-center">
-        <section>Watch how we work</section>
-        <section class="text-center max-w-[765px]">
-          Capture more customers with a great brand recall. Whether you need a
-          tising or as a tagline for your business, our slogan generator will
-          help you come up with us.
-        </section>
-        <section>
-          <button>Play</button>
-        </section>
-      </section>
+    <section class="relative grid place-items-center w-full max-w-6xl mx-auto">
+      <!-- Блок с изображением -->
+      <div class="w-full h-auto relative">
+        <img
+          src="./img/working.jpg"
+          alt="Working Image"
+          class="w-full h-auto block"
+        />
+
+        <!-- Внутренний контент поверх изображения -->
+        <div
+          class="absolute inset-0 flex flex-col items-center justify-center text-white space-y-6"
+        >
+          <!-- Заголовок -->
+          <div class="text-2xl font-bold">Watch how we work</div>
+
+          <!-- Описание -->
+          <div class="text-center max-w-[765px] px-4 text-base">
+            Capture more customers with a great brand recall. Whether you need
+            advertising or a tagline for your business, our slogan generator
+            will help you come up with us.
+          </div>
+
+          <!-- Кнопка -->
+          <button
+            class="px-6 py-2 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition"
+          >
+            Play
+          </button>
+        </div>
+      </div>
     </section>
+
     <!-- VIDEO -->
   </body>
 </html>

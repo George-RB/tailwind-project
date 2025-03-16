@@ -55,6 +55,7 @@
                 >
               </li>
               <li>
+                <!-- Тут магия какая-то, при наведении на слово половина слова не работает при наведении -->
                 <a
                   href="#About"
                   class="hover:border-b-2 border-cyan-500 pb-1 hover:text-cyan-600"
@@ -106,222 +107,241 @@
     <!-- SERVICES -->
     <section class="bg-slate-100 pt-12">
       <section class="grid place-items-center mx-auto max-w-6xl">
-        <span class="text-2xl font-extrabold mt-10"
+        <span class="text-4xl font-extrabold mt-10"
           >We provide great services</span
         >
         <span class="text-neutral-500 text-sm max-w-lg text-center mt-6 mb-15"
           >We help people to think independent. Be the boss of your brand and be
           the storyteller. An appropriate approach.</span
         >
-        <section class="grid grid-cols-4 gap-3">
+        <!-- У иконок некоторые скругления недостаточно круглые! -->
+        <section class="grid grid-cols-4 gap-x-20">
           <section
-            class="grid grid-rows-3 place-items-center rounded-3xl mt-6 hover:bg-cyan-700 active:bg-cyan-400 transition-all"
+            class="grid grid-rows-3 place-items-center rounded-3xl hover:bg-cyan-700 hover:text-slate-100 active:bg-cyan-400 transition-all cursor-pointer"
           >
-            <img src="./img/icons/1.png" alt="" class="mt-12" />
+            <img
+              src="./img/icons/1.png"
+              alt=""
+              class="bg-cyan-600 p-6 rounded-[100px] mt-6"
+            />
 
-            <h1>Web Design</h1>
-            <span class="text-center"
+            <h1 class="text-xl font-bold">Web Design</h1>
+            <span class="text-center text-slate-400 text-sm w-[200px]"
               >Powerful creations for the practice safe design.</span
             >
           </section>
           <section
-            class="grid grid-rows-3 place-items-center rounded-3xl mt-6 hover:bg-cyan-700 active:bg-cyan-400 transition-all"
+            class="grid grid-rows-3 place-items-center rounded-3xl hover:bg-cyan-700 hover:text-slate-100 active:bg-cyan-400 transition-all cursor-pointer"
           >
-            <img src="./img/icons/1.png" alt="" class="mt-12" />
+            <img
+              src="./img/icons/2.png"
+              alt=""
+              class="bg-cyan-600 p-6 rounded-full"
+            />
 
-            <h1>Web Design</h1>
-            <span class="text-center"
+            <h1 class="text-xl font-bold">Identity & Branding</h1>
+            <span class="text-center text-slate-400 text-sm w-[200px]"
               >Powerful creations for the practice safe design.</span
             >
           </section>
           <section
-            class="grid grid-rows-3 place-items-center rounded-3xl mt-6 active:bg-cyan-400 transition-all"
+            class="grid grid-rows-3 place-items-center rounded-3xl hover:bg-cyan-700 hover:text-slate-100 active:bg-cyan-400 transition-all cursor-pointer"
           >
-            <img src="./img/icons/1.png" alt="" class="mt-12" />
+            <img
+              src="./img/icons/3.png"
+              alt=""
+              class="bg-cyan-600 p-6 rounded-full"
+            />
 
-            <h1>Web Design</h1>
-            <span class="text-center"
+            <h1 class="text-xl font-bold">Print and Packaging</h1>
+            <span class="text-center text-slate-400 text-sm w-[200px]"
               >Powerful creations for the practice safe design.</span
             >
           </section>
           <section
-            class="grid grid-rows-3 place-items-center rounded-3xl mt-6 hover:bg-[url('./img/Background.jpg')] hover:bg-cover active:bg-cyan-400 transition-all"
+            class="grid grid-rows-3 place-items-center rounded-3xl hover:bg-cyan-700 hover:text-slate-100 active:bg-cyan-400 transition-all cursor-pointer"
           >
-            <img src="./img/icons/1.png" alt="" class="mt-12" />
+            <img
+              src="./img/icons/4.png"
+              alt=""
+              class="bg-cyan-600 p-6 rounded-full"
+            />
 
-            <h1>Web Design</h1>
-            <span class="text-center"
+            <h1 class="text-xl font-bold">Content Writing</h1>
+            <span class="text-center text-slate-400 text-sm w-[200px]"
               >Powerful creations for the practice safe design.</span
             >
           </section>
         </section>
       </section>
-    </section>
 
-    <!-- MORE -->
-    <section class="bg-slate-100" id="TheTeam">
-      <section
-        class="grid grid-cols-2 mx-auto max-w-6xl pt-[120px] bg-slate-100"
-      >
-        <section class="grid grid-rows-4 place-items-start">
-          <span>Johnatan Doe </span>
-          <span>Marketing Specialist</span>
-          <span
-            >To make your web design company famous in the little we are here to
-            provide you as many as catchy and useful web design company will
-            surely help your company.</span
-          >
-          <button
-            class="px-6 py-2 bg-cyan-600 text-white rounded-md hover:bg-cyan-700 active:bg-cyan-400"
-          >
-            Sign Up
-          </button>
-        </section>
-        <section class="mx-auto">
-          <img src="./img/profile.png" alt="" />
-        </section>
-      </section>
-    </section>
-
-    <!-- VIDEO -->
-    <section class="relative grid place-items-center w-full max-w-7xl mx-auto">
-      <!-- Блок с изображением -->
-      <div class="w-full h-auto relative">
-        <img
-          src="./img/working.jpg"
-          alt="Working Image"
-          class="w-full h-auto block"
-        />
-
-        <!-- Внутренний контент поверх изображения -->
-        <div
-          class="absolute inset-0 flex flex-col items-center justify-center text-white space-y-6"
+      <!-- MORE -->
+      <section class="bg-slate-100" id="TheTeam">
+        <section
+          class="grid grid-cols-2 mx-auto max-w-6xl pt-[120px] bg-slate-100"
         >
-          <!-- Заголовок -->
-          <div class="text-2xl font-bold">Watch how we work</div>
-
-          <!-- Описание -->
-          <div class="text-center max-w-[765px] px-4 text-base">
-            Capture more customers with a great brand recall. Whether you need
-            advertising or a tagline for your business, our slogan generator
-            will help you come up with us.
-          </div>
-
-          <!-- Кнопка -->
-          <button
-            class="px-6 py-2 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition"
-          >
-            Play
-          </button>
-        </div>
-      </div>
-    </section>
-
-    <!-- VIDEO -->
-
-    <!-- FEATURES -->
-    <section class="w-full max-w-6xl mx-auto">
-      <section class="grid grid-rows-3">
-        <section class="text-6xl">Best features in the world</section>
-        <section class="text-4xl">
-          Capture more customers wd recall. Whether you need a tising or as a
-          tagline for you. Capture more customers wd recall. Whether you need a
-          tising or as a tagline for you.
-        </section>
-        <section class="grid grid-rows-2 grid-cols-3 gap-3">
-          <section class="grid grid-rows-3 place-items-center">
-            <img src="./img/grid_icons/1.png" alt="" />
-            <h3>Sleek and smooth animation</h3>
-            <p class="text-center">
-              Powerful creations for the practice safe design creations for the
-              prac.
-            </p>
+          <section class="grid grid-rows-4 place-items-start">
+            <span>Johnatan Doe </span>
+            <span>Marketing Specialist</span>
+            <span
+              >To make your web design company famous in the little we are here
+              to provide you as many as catchy and useful web design company
+              will surely help your company.</span
+            >
+            <button
+              class="px-6 py-2 bg-cyan-600 text-white rounded-md hover:bg-cyan-700 active:bg-cyan-400"
+            >
+              Sign Up
+            </button>
           </section>
-          <section>
-            <section class="grid grid-rows-3 place-items-center">
-              <img src="./img/grid_icons/1.png" alt="" />
-              <h3>Sleek and smooth animation</h3>
-              <p class="text-center">
-                Powerful creations for the practice safe design creations for
-                the prac.
-              </p>
-            </section>
-          </section>
-          <section>
-            <section class="grid grid-rows-3 place-items-center">
-              <img src="./img/grid_icons/1.png" alt="" />
-              <h3>Sleek and smooth animation</h3>
-              <p class="text-center">
-                Powerful creations for the practice safe design creations for
-                the prac.
-              </p>
-            </section>
-          </section>
-          <section>
-            <section class="grid grid-rows-3 place-items-center">
-              <img src="./img/grid_icons/1.png" alt="" />
-              <h3>Sleek and smooth animation</h3>
-              <p class="text-center">
-                Powerful creations for the practice safe design creations for
-                the prac.
-              </p>
-            </section>
-          </section>
-          <section>
-            <section class="grid grid-rows-3 place-items-center">
-              <img src="./img/grid_icons/1.png" alt="" />
-              <h3>Sleek and smooth animation</h3>
-              <p class="text-center">
-                Powerful creations for the practice safe design creations for
-                the prac.
-              </p>
-            </section>
-          </section>
-          <section>
-            <section class="grid grid-rows-3 place-items-center">
-              <img src="./img/grid_icons/1.png" alt="" />
-              <h3>Sleek and smooth animation</h3>
-              <p class="text-center">
-                Powerful creations for the practice safe design creations for
-                the prac.
-              </p>
-            </section>
+          <section class="mx-auto">
+            <img src="./img/profile.png" alt="" />
           </section>
         </section>
       </section>
-    </section>
-    <!-- FEATURES -->
-    <!-- LOGO -->
-    <section>
-      <section class="grid grid-rows-3">
-        <section>
-          <img src="./img/man.png" alt="" />
-          <h1>logoipsum</h1>
-        </section>
-        <blockquote>
-          “Always a pleasure to work with The Agency Creative. Such professional
-          and happy people and you know you’ll receive a quick innovative and no
-          fuss service.”
-        </blockquote>
-        <section class="grid grid-cols-2">
-          <img src="./img/man.png" alt="" />
-          <section>
-            <h3>Johnatan Doe</h3>
-            <p>Web Designer</p>
-          </section>
-        </section>
-      </section>
-    </section>
-    <!-- LOGO -->
-    <!-- QUOTE -->
-    <section>
-      <h3>People have tried to predict the future since the dawn of time.</h3>
-      <button
-        class="px-6 py-2 bg-cyan-600 text-white rounded-md hover:bg-cyan-700 active:bg-cyan-400"
+
+      <!-- VIDEO -->
+      <section
+        class="relative grid place-items-center w-full max-w-7xl mx-auto"
       >
-        Sign Up
-      </button>
+        <!-- Блок с изображением -->
+        <div class="w-full h-auto relative">
+          <img
+            src="./img/working.jpg"
+            alt="Working Image"
+            class="w-full h-auto block"
+          />
+
+          <!-- Внутренний контент поверх изображения -->
+          <div
+            class="absolute inset-0 flex flex-col items-center justify-center text-white space-y-6"
+          >
+            <!-- Заголовок -->
+            <div class="text-2xl font-bold">Watch how we work</div>
+
+            <!-- Описание -->
+            <div class="text-center max-w-[765px] px-4 text-base">
+              Capture more customers with a great brand recall. Whether you need
+              advertising or a tagline for your business, our slogan generator
+              will help you come up with us.
+            </div>
+
+            <!-- Кнопка -->
+            <button
+              class="px-6 py-2 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition"
+            >
+              Play
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- VIDEO -->
+
+      <!-- FEATURES -->
+      <section class="w-full max-w-6xl mx-auto">
+        <section class="grid grid-rows-3">
+          <section class="text-6xl">Best features in the world</section>
+          <section class="text-4xl">
+            Capture more customers wd recall. Whether you need a tising or as a
+            tagline for you. Capture more customers wd recall. Whether you need
+            a tising or as a tagline for you.
+          </section>
+          <section class="grid grid-rows-2 grid-cols-3 gap-3">
+            <section class="grid grid-rows-3 place-items-center">
+              <img src="./img/grid_icons/1.png" alt="" />
+              <h3>Sleek and smooth animation</h3>
+              <p class="text-center">
+                Powerful creations for the practice safe design creations for
+                the prac.
+              </p>
+            </section>
+            <section>
+              <section class="grid grid-rows-3 place-items-center">
+                <img src="./img/grid_icons/1.png" alt="" />
+                <h3>Sleek and smooth animation</h3>
+                <p class="text-center">
+                  Powerful creations for the practice safe design creations for
+                  the prac.
+                </p>
+              </section>
+            </section>
+            <section>
+              <section class="grid grid-rows-3 place-items-center">
+                <img src="./img/grid_icons/1.png" alt="" />
+                <h3>Sleek and smooth animation</h3>
+                <p class="text-center">
+                  Powerful creations for the practice safe design creations for
+                  the prac.
+                </p>
+              </section>
+            </section>
+            <section>
+              <section class="grid grid-rows-3 place-items-center">
+                <img src="./img/grid_icons/1.png" alt="" />
+                <h3>Sleek and smooth animation</h3>
+                <p class="text-center">
+                  Powerful creations for the practice safe design creations for
+                  the prac.
+                </p>
+              </section>
+            </section>
+            <section>
+              <section class="grid grid-rows-3 place-items-center">
+                <img src="./img/grid_icons/1.png" alt="" />
+                <h3>Sleek and smooth animation</h3>
+                <p class="text-center">
+                  Powerful creations for the practice safe design creations for
+                  the prac.
+                </p>
+              </section>
+            </section>
+            <section>
+              <section class="grid grid-rows-3 place-items-center">
+                <img src="./img/grid_icons/1.png" alt="" />
+                <h3>Sleek and smooth animation</h3>
+                <p class="text-center">
+                  Powerful creations for the practice safe design creations for
+                  the prac.
+                </p>
+              </section>
+            </section>
+          </section>
+        </section>
+      </section>
+      <!-- FEATURES -->
+      <!-- LOGO -->
+      <section>
+        <section class="grid grid-rows-3">
+          <section>
+            <img src="./img/man.png" alt="" />
+            <h1>logoipsum</h1>
+          </section>
+          <blockquote>
+            “Always a pleasure to work with The Agency Creative. Such
+            professional and happy people and you know you’ll receive a quick
+            innovative and no fuss service.”
+          </blockquote>
+          <section class="grid grid-cols-2">
+            <img src="./img/man.png" alt="" />
+            <section>
+              <h3>Johnatan Doe</h3>
+              <p>Web Designer</p>
+            </section>
+          </section>
+        </section>
+      </section>
+      <!-- LOGO -->
+      <!-- QUOTE -->
+      <section>
+        <h3>People have tried to predict the future since the dawn of time.</h3>
+        <button
+          class="px-6 py-2 bg-cyan-600 text-white rounded-md hover:bg-cyan-700 active:bg-cyan-400"
+        >
+          Sign Up
+        </button>
+      </section>
+      <!-- QUOTE -->
     </section>
-    <!-- QUOTE -->
   </body>
 </html>

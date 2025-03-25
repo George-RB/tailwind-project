@@ -7,6 +7,7 @@
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
     --color-amber-200: oklch(0.924 0.12 95.746);
+    --color-amber-300: oklch(0.879 0.169 91.605);
     --color-cyan-400: oklch(0.789 0.154 211.53);
     --color-cyan-500: oklch(0.715 0.143 215.221);
     --color-cyan-600: oklch(0.609 0.126 221.723);
@@ -820,6 +821,21 @@
   .lg\:max-w-lg {
     @media (width >= 64rem) {
       max-width: var(--container-lg);
+    }
+  }
+  .lg\:bg-amber-300 {
+    @media (width >= 64rem) {
+      background-color: var(--color-amber-300);
+    }
+  }
+  .xl\:max-w-3xl {
+    @media (width >= 80rem) {
+      max-width: var(--container-3xl);
+    }
+  }
+  .xl\:bg-amber-300 {
+    @media (width >= 80rem) {
+      background-color: var(--color-amber-300);
     }
   }
 }

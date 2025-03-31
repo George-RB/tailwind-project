@@ -84,6 +84,7 @@
           </nav>
           <div class="flex justify-end">
             <button
+              onclick="showAlert()"
               id="signUp"
               class="px-6 py-2 bg-cyan-600 text-white rounded-md hover:bg-cyan-700 active:bg-cyan-400"
             >
@@ -234,10 +235,50 @@
             surely help your company.</span
           >
           <button
+            id="learnMore"
             class="px-6 py-2 text-cyan-600 border-[0.75px] rounded-md hover:bg-cyan-700 hover:text-white active:bg-cyan-400 my-10 w-48 h-12 mx-auto md:mx-0"
           >
             Learn More
           </button>
+
+          <!-- Модальное окно -->
+          <div
+            id="modal"
+            class="fixed inset-0 bg-black bg-opacity-30 flex items-center justify-center hidden"
+          >
+            <div class="bg-white p-6 rounded-lg shadow-lg w-96 relative">
+              <button
+                id="closeModal"
+                class="absolute top-2 right-2 text-gray-500"
+              >
+                &times;
+              </button>
+              <h2 class="text-xl font-semibold mb-4">Регистрация</h2>
+              <form id="registerForm">
+                <input
+                  type="text"
+                  placeholder="Имя"
+                  class="w-full p-2 border rounded mb-2"
+                />
+                <input
+                  type="email"
+                  placeholder="Email"
+                  class="w-full p-2 border rounded mb-2"
+                />
+                <input
+                  type="password"
+                  placeholder="Пароль"
+                  class="w-full p-2 border rounded mb-4"
+                />
+                <button
+                  type="submit"
+                  class="bg-blue-500 text-white px-4 py-2 rounded w-full"
+                >
+                  Зарегистрироваться
+                </button>
+              </form>
+            </div>
+          </div>
         </section>
         <section class="mx-auto">
           <img

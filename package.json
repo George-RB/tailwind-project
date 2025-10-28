@@ -2,5 +2,27 @@
   "dependencies": {
     "@tailwindcss/cli": "^4.0.9",
     "tailwindcss": "^4.0.9"
-  }
+  },
+  "name": "tailwind-project",
+  "version": "1.0.0",
+  "description": "Этот проект представляет собой адаптивный веб-сайт, созданный с использованием фреймворка Tailwind CSS. В настоящее время сайт полностью стилизован и корректно отображается на различных устройствах, но функциональность на JavaScript пока не реализована.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/George-RB/tailwind-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/George-RB/tailwind-project/issues"
+  },
+  "homepage": "https://github.com/George-RB/tailwind-project#readme"
 }

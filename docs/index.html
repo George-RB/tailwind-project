@@ -23,22 +23,22 @@
     <link rel="stylesheet" href="./output.css" />
   </head>
   <body class="max-w-7xl mx-auto bg-slate-200">
+    <div id="header-container"></div>
     <section class="bg-[url('/img/Background.jpg')]">
       <!-- HEADER -->
-      <header class="max-w-6xl mx-auto py-4" id="Home">
+      <!-- <header class="max-w-6xl mx-auto py-4" id="Home">
         <div
           class="grid grid-cols-2 mx-4 md:grid-cols-[1fr_2fr_1fr] items-center"
         >
           <div class="flex items-center">
             <img src="./img/logo.png" alt="logo" class="h-10" />
             <p class="pl-2 font-bold text-lg">Maker</p>
-          </div>
+          </div> -->
           <!-- Нужно сделать ссылки и переходы по ним -->
-          <nav class="hidden md:block scroll-smooth">
+          <!-- <nav class="hidden md:block scroll-smooth">
             <ul class="flex justify-center space-x-6 text-gray-400">
               <li>
                 <a
-                  id="Home"
                   href="#Home"
                   class="border-b-2 border-cyan-500 text-cyan-500 pb-1"
                   >Home</a
@@ -65,24 +65,25 @@
                   >Pricing</a
                 >
               </li>
-              <li>
+
+               НОВЫЕ ССЫЛКИ НА ОТДЕЛЬНЫЕ СТРАНИЦЫ -->
+          <!-- <li>
                 <a
-                  href="#Contact"
-                  class="hover:border-b-2 border-cyan-500 pb-1 hover:text-cyan-600"
-                  >Contact</a
-                >
-              </li>
-              <li>
-                <!-- Тут магия какая-то, при наведении на слово половина слова не работает при наведении -->
-                <a
-                  href="#About"
+                  href="about.html"
                   class="hover:border-b-2 border-cyan-500 pb-1 hover:text-cyan-600"
                   >About</a
                 >
               </li>
-            </ul>
-          </nav>
-          <div class="flex justify-end">
+              <li>
+                <a
+                  href="contact.html"
+                  class="hover:border-b-2 border-cyan-500 pb-1 hover:text-cyan-600"
+                  >Contact</a
+                >
+              </li>
+            </ul> -->
+          <!-- </nav> -->
+          <!-- <div class="flex justify-end">
             <button
               onclick="showAlert()"
               id="signUp"
@@ -90,7 +91,7 @@
             >
               Sign Up
             </button>
-          </div>
+          </div> -->
         </div>
       </header>
 
@@ -127,6 +128,8 @@
         </div>
       </section>
     </section>
+    <!-- Подключаем скрипт для загрузки хедера -->
+    <script src="load-header.js"></script>
 
     <!-- SERVICES -->
     <section class="bg-slate-100 pt-12">
